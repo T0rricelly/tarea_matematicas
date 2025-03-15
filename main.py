@@ -25,9 +25,9 @@ def main():
 
     if a ==b == c:
         print("es un triangulo equilatero")
-    elif a  ==b != c:
+    elif a  ==b or a ==c or b == c : 
         print("es un triangulo isosceles")
-    elif a != b != c:
+    else: 
         print("es un triangulo escaleno ")
 
 main()
